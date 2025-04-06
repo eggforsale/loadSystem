@@ -1,0 +1,42 @@
+name: load_system
+description: "A new Flutter project."
+publish_to: 'none' # Prevents accidental publishing
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.6.1 <4.0.0"  # Ensures compatibility
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  hooks_riverpod: ^2.6.1
+  flutter_hooks: ^0.21.2
+  riverpod_annotation: ^2.6.1
+  isar: ^3.1.0+1
+  isar_flutter_libs:
+    git:
+      url: https://github.com/MrLittleWhite/isar_flutter_libs.git
+  path_provider: ^2.1.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+  riverpod_generator: ^2.3.3
+  build_runner: ^2.4.6
+  isar_generator: ^3.1.0+1
+  riverpod_lint: ^2.1.1
+  firebase_auth: ^5.5.1
+  firebase_core: ^3.12.1
+  cloud_firestore: ^5.6.5
+  analyzer: ^5.13.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/load_central_icon.png
